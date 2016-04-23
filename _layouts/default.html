@@ -1,27 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--
-   __ ___   __  __               __
-  / // (_) / /_/ /  ___ _______ / /
- / _  / / / __/ _ \/ -_) __/ -_)_/ 
-/_//_/_/  \__/_//_/\__/_/  \__(_)  
+<html>
 
-  _      ____        __                                              __     ___ 
- | | /| / / /  ___ _/ /_  ___ ________   __ _____  __ __  __ _____  / /____/__ \
- | |/ |/ / _ \/ _ `/ __/ / _ `/ __/ -_) / // / _ \/ // / / // / _ \/ __/ _ \/__/
- |__/|__/_//_/\_,_/\__/  \_,_/_/  \__/  \_, /\___/\_,_/  \_,_/ .__/\__/\___(_)  
-                                       /___/                /_/                 
--->
-{% include head.html %}
+  {% include head.html %}
 
-<body>
 
-    {% include nav.html %}
+    <body id="page-top" class="index">
 
-    {{ content }}
-
+    {% include header.html %}
+    {% include services.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
+    {% include team.html %}
+    {% include clients.html %}
+    {% include contact.html %}
     {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
 
-</body>
-{% include google_analytics.html %}
+    </body>
 </html>

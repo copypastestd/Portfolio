@@ -1,20 +1,30 @@
-[![Build Status](https://travis-ci.org/ShikherVerma/Shikherverma.github.io.svg?branch=master)](https://travis-ci.org/ShikherVerma/Shikherverma.github.io)
+Agency Jekyll theme
+====================
 
-## CleanBlogEnhanced jekyll template
+Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
 
-Jekyll blog based on [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/). Served at shikherverma.com
+# How to use
 
-## Usage
+###Portfolio 
 
-Fork the repo
-Rename to `username.github.io`
-Modify the _config file
-Replace all the posts and images with your data
+Portfolio projects are in '/_posts'
 
-## Bugs and Issues
+Images are in '/img/portfolio'
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/ShikherVerma/shikherverma.github.io/issues) here on GitHub
+###About
 
-## Copyright and License
+Images are in '/img/about/'
 
-Copyright ShikherVerma. All rights reserved for the files under _posts and _images, the rest of the code is released under the [MIT](https://github.com/ShikherVerma/shikherverma.github.io/blob/gh-pages/LICENSE) license.
+###Team
+
+Team members and info are in '_config.yml'
+
+Images are in '/img/team/'
+
+
+# Demo
+
+View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+
+=========
+For more details, read [documentation](http://jekyllrb.com/)
